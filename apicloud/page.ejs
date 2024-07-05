@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      name="viewport"
+      content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0,viewport-fit=cover"
+    />
+    <meta
+      name="format-detection"
+      content="telephone=no,email=no,date=no,address=no"
+    />
+    <% if(!isDev) { %>
+    <script src="./js/vue.runtime.global.prod.js"></script>
+    <% } else { %>
+    <script src="./js/vue.global.js"></script>
+    <% } %>
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <script>
+      apiready = function () {
+        Vue.createApp(window.apicloud.default).mount("#app");
+      };
+    </script>
+  </body>
+</html>

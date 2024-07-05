@@ -1,0 +1,49 @@
+{
+  "name": "apicloud-vue",
+  "version": "1.0.0",
+  "description": "Apicloud for Vue3, 内置Vant4前端打包，是一个采用Vue数据绑定特性和Apicloud手机操控能力相结合的APP开发框架",
+  "scripts": {
+    "dev": "NODE_OPTIONS=--max_old_space_size=8192 rsbuild dev",
+    "build": "rsbuild build",
+    "zip": "node zip"
+  },
+  "author": "Marlon <124711483@qq.com>",
+  "license": "MIT",
+  "keywords": [
+    "yonyou",
+    "yonbuilder",
+    "apicloud",
+    "vue",
+    "vue3",
+    "vant",
+    "vant4",
+    "webpack",
+    "rsbuild",
+    "app",
+    "hybird",
+    "ios",
+    "android",
+    "javascript",
+    "typescript",
+    "nodejs"
+  ],
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/grapewheel/apicloud-vue"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^0.7.9",
+    "@rsbuild/plugin-vue": "^0.7.9",
+    "@types/klaw-sync": "^6.0.5",
+    "@vant/auto-import-resolver": "^1.2.1",
+    "archiver": "^7.0.1",
+    "klaw-sync": "^6.0.0",
+    "unplugin-auto-import": "^0.17.6",
+    "unplugin-vue-components": "^0.27.2",
+    "xml-js": "^1.6.11"
+  },
+  "dependencies": {
+    "vant": "^4.9.1",
+    "vue": "^3.4.30"
+  }
+}

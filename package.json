@@ -1,7 +1,7 @@
 {
   "name": "apicloud-vue",
   "version": "1.0.0",
-  "description": "Apicloud for Vue3, 内置Vant4前端打包，是一个采用Vue数据绑定特性和Apicloud手机操控能力相结合的APP开发框架",
+  "description": "Apicloud for Vue3, 内置Vant4前端，是一个采用Vue数据绑定特性和Apicloud手机操控能力相结合的APP开发框架",
   "scripts": {
     "dev": "NODE_OPTIONS=--max_old_space_size=8192 rsbuild dev",
     "build": "rsbuild build",
